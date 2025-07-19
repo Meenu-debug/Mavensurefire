@@ -27,6 +27,7 @@ import org.testng.annotations.Test;
 
 		WebElement u1	=driver.findElement(By.xpath("//input[@id='username'] "));
 		u1.sendKeys("student");
+		System.out.println("this is username");
 	WebElement p1 		=driver.findElement(By.xpath("//input[@id='password']"));
 	p1.sendKeys("Password123");
 		WebElement b1	=driver.findElement(By.xpath("//button[@id='submit']"));
